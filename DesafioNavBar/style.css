@@ -21,7 +21,7 @@ a{
 
 .nav {
     max-width: 1280px;
-    height: 70px;
+    height: 30px;
     margin-inline: auto;
     display: flex;
     justify-content: space-between;
@@ -29,26 +29,26 @@ a{
 }
 
 .logo {
-    font-size: 40px;
+    font-size: 9px;
     color: #838C96;
 
 }
 
 .nav-list {
     display: flex;
-    gap: 32px;
+    gap: 20px;
     list-style: none;
 }
 
 .nav-list a {
-    font-size: 18px;
+    font-size: 7px;
     color: #838C96;
     padding-block: 16px;
 
 }
 
 .hero {
-    height: calc(100vh - 70px);
+    height: calc(100vh - 30px);
     background: center / cover no-repeat url("cabal.jpeg");
 }
 
@@ -103,7 +103,7 @@ a{
         }
 
         .nav-list a {
-            font-size: 24px;
+            font-size: 10px;
             opacity: 0;           
 
 
