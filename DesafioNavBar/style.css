@@ -3,14 +3,16 @@
     padding: 0;
 }
 body {
-    background-color: #252432;
-    font-family: 'Roboto',sans-serif;
+    height: calc(105vh - 30px);
+    background: center / cover no-repeat url("cabal.jpeg");
 }
+
 
 .wrapper {
     display: flex;
     flex-flow: row wrap;
     text-align: center;
+    
 }
 
 .wrapper > *{
@@ -21,23 +23,25 @@ body {
 
 
 .footer{
-    background-color: #66ccff;
-    height: 80px;
+    background-color: #5edfff;
+    height: 150px;
 }
 
 .main {
-    background-color: #ff6667;
+    background-color: aliceblue;
     height: 300px;
 
 }
 
 .side1{
-    background-color: #65cc99;
+   background-color: aquamarine;
+   height: 300px;
 
 }
 
 .side2 {
-    background-color: #9999ff;
+    background-color: bisque;
+    height: 300px;
 }
 
 a{
@@ -96,10 +100,7 @@ a::after {
 
 }
 
-.hero {
-    height: calc(100vh - 30px);
-    background: center / cover no-repeat url("cabal.jpeg");
-}
+
 
 .hamburger {
     display: none;
